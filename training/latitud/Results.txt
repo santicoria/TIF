@@ -1,0 +1,7 @@
+Evaluation for latitude:
+Actual range: -54.35 to -18.02
+Predicted range: -54.81 to -18.45
+MAE: 0.3173
+RMSE: 0.4123
+R²: 0.9944
+Precision (% within ±0.5 units): 88.28%

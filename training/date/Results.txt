@@ -1,0 +1,11 @@
+Evaluation Metrics (time difference in days):
+MAE: 0.2060 days
+RMSE: 0.3505 days
+R²: 0.1585
+Accuracy (±1.0 day): 97.84%
+
+Predicted Time Difference Range:
+Minimum: 0.0000 days
+Maximum: 1.7859 days
+
+Changed the algorithm to use the last 10 earthquakes that happened in a radius of 200km. Fixed an error in the calculations of time till next

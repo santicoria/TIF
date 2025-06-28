@@ -1,0 +1,31 @@
+Explained as: feature importances
+
+Feature importances, computed as a decrease in score when feature
+values are permuted (i.e. become noise). This is also known as 
+permutation importance.
+
+If feature importances are computed on the same data as used for training, 
+they don't reflect importance of features for generalization. Use a held-out
+dataset if you want generalization feature importances.
+
+0.6833 ± 0.0246  shallow_depth_indicator
+0.4745 ± 0.0300  longitude
+0.3334 ± 0.0158  magType_md
+0.1978 ± 0.0069  magType_mb
+0.1583 ± 0.0082  magSource_guc
+0.1255 ± 0.0112  magSource_us
+0.1124 ± 0.0082  dmin
+0.1012 ± 0.0070  mid_depth_indicator
+0.0852 ± 0.0082  locationSource_guc
+0.0614 ± 0.0094  time_numeric
+0.0473 ± 0.0024  locationSource_us
+0.0452 ± 0.0042  magType_ml
+0.0438 ± 0.0035  magType_m
+0.0414 ± 0.0032  magType_mwr
+0.0397 ± 0.0061  deep_depth_indicator
+0.0345 ± 0.0134  latitude
+0.0228 ± 0.0058  lat_lon_interaction
+0.0199 ± 0.0034  magSource_gcmt
+0.0189 ± 0.0026  year
+0.0131 ± 0.0015  magType_mww
+              … 25 more …               

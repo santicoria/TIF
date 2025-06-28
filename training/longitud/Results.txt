@@ -1,0 +1,7 @@
+Evaluation for longitude:
+Actual range: -74.97 to -53.91
+Predicted range: -75.23 to -56.80
+MAE: 0.1416
+RMSE: 0.2569
+R²: 0.9839
+Precision (% within ±0.5 units): 97.49%

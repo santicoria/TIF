@@ -1,0 +1,23 @@
+Feature Importance Analysis
+
+Here are the top features and their weights (importance scores ± standard deviation):
+
+nst (0.1726 ± 0.0128): Number of seismic stations used to locate the earthquake. This high importance suggests that the density of seismic stations significantly influences magnitude prediction, likely because more stations provide better data quality.
+
+latitude (0.1374 ± 0.0069): Geographical location (latitude) is critical, likely due to regional seismic patterns in Argentina and Chile.
+
+magType_mww (0.0797 ± 0.0049): A specific magnitude type (moment magnitude from W-phase). This indicates that the method used to calculate magnitude impacts prediction.
+    
+magType_mb (0.0703 ± 0.0027): Body-wave magnitude type, another influential magnitude calculation method.
+    
+year (0.0598 ± 0.0011): Temporal factor, suggesting seismic activity trends over time.
+    
+longitude (0.0523 ± 0.0026): Geographical location (longitude), complementing latitude.
+    
+magType_ml (0.0417 ± 0.0022): Local magnitude type, another magnitude calculation method.
+    
+time_numeric (0.0394 ± 0.0027): Time in days since 1970, indicating temporal trends.
+    
+gap (0.0303 ± 0.0014): Azimuthal gap, the largest angle between stations, affecting location accuracy.
+    
+dmin (0.0284 ± 0.0012): Distance to the nearest station, impacting data reliability.

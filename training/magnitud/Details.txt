@@ -1,0 +1,11 @@
+ANN que utiliza todas las columnas como input para predecir magnitud.
+100 epochs
+3 layers de neuronas
+
+Evaluation for mag:
+Actual range: 2.50 to 8.20
+Predicted range: 2.66 to 6.70
+MAE: 0.2039
+RMSE: 0.2672
+R²: 0.8639
+Precision (% within ±0.5 units): 93.62%
