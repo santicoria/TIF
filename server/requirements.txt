@@ -1,0 +1,11 @@
+pandas
+numpy
+tensorflow==2.18.0
+joblib
+requests
+time
+keras
+os
+scipy
+DateTime
+flask
