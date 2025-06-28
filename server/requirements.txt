@@ -4,7 +4,6 @@ tensorflow==2.18.0
 joblib
 requests
 keras
-os
 scipy
 DateTime
 flask
