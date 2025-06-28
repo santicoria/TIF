@@ -17,7 +17,7 @@ from eli5.sklearn import PermutationImportance
 
 # Load earthquake data
 earthquakes = pd.read_csv('') #Enter earthquake dataset path here
-faults = pd.read_csv('/content/drive/MyDrive/TIF 3/fault_lines.csv') #Enter faults dataset path here
+faults = pd.read_csv('') #Enter faults dataset path here
 
 # Filter data for Argentina and Chile (approx. lat: -55 to -18, lon: -75 to -53)
 earthquakes = earthquakes[
