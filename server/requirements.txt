@@ -7,3 +7,4 @@ keras
 scipy
 DateTime
 flask
+scikit-learn
